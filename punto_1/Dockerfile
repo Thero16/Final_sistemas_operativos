@@ -13,5 +13,5 @@ RUN pip install -r requirements.txt
 # Copy the app application code
 COPY app.py ${LAMBDA_TASK_ROOT}
 
-# Set the CMD to your handler (app.handler refers to the 'handler' function in app.py)
+# Set the CMD to your handler (app.mangum refers to the 'handler' function in app.py)
 CMD ["app.mangum"]
